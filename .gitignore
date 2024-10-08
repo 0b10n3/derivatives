@@ -304,3 +304,68 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.dvi
+*.xdv
+*.pdf
+*.ps
+*.thm
+*.nav
+*.snm
+
+# Pastas com resultados do latexmk e TexShop
+latex.out/
+build/
+latexmkrc/
+*.fls
+*.fdb_latexmk
+
+# Poetry
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.venv
+.env
+poetry.lock
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs, databases, env vars
+*.log
+*.sqlite3
+.env
+
+# Byte-compiled Python
+*.py[cod]
+
