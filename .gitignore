@@ -329,7 +329,7 @@ TSWLatexianTemp*
 *.synctex.gz
 *.dvi
 *.xdv
-*.pdf
+#*.pdf
 *.ps
 *.thm
 *.nav
